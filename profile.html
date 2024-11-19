@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Lana Home Page</title>
+        <link rel="stylesheet" type="text/css" href="main.css">
+    </head>
+
+    <body>
+
+        <!-- Total body of page -->
+        <!-- Two rows -->
+        <div class="display-block">
+
+            <!-- Navigation row, 4 columns-->
+            <div class="display-block nav-bar">
+
+                <div class="display-block">
+                    <!-- <h3>Home</h3> -->
+                    <a href="index.html">Home</a>
+                </div>
+                <div class="display-block">
+                    <a href="profile.html">Create Lana Profile</a>
+                </div>
+                <div class="display-block">
+                    <a href="musical_sites.html">Musical Sites</a>
+                </div>
+                <div class="display-block">
+                    <a href="albums.html">Albums</a>
+                </div>
+
+            </div class="display-block">
+
+            <!-- Main body row -->
+            <!-- Two columns -->
+            <div class="main display-block two-columns">
+                <!-- Column 1 - 20% -->
+                <!-- Side bar -->
+                <div class="display-block side-bar">
+
+                    <h2>Side Column</h2>
+                    <p>
+                        Even in ancient days they
+                        were, as a rule, shy of ‘the Big Folk’, as they call us, and
+                        now they avoid us with dismay and are becoming hard to
+                        find. They are quick of hearing and sharp-eyed, and though
+                        they are inclined to be fat and do not hurry unnecessarily, they
+                        are nonetheless nimble and deft in their movements. They
+                        2 prologue
+                    </p>
+
+                </div>
+
+                <!-- Main part -->
+                <div class="display-block variable-content center-items">
+
+                    <h1>Profile Page</h1>
+
+                    <form action="/form-handling-url" method="post">
+                        <fieldset>
+                        <legend id="AddUserShifted">Add user</legend>
+                            <div class="large-three-columns">
+                                <div></div>
+                                <div>
+                                    <div class="single-grid">
+                                        <label for="firstName">First name</label>
+                                        <input class="full-block" ="text" id="firstName" name="first_name">
+                                    </div>
+
+                                    <div class="single-grid">
+                                        <label for="lastName">Last name</label>
+                                        <input class="full-block" type="text" id="lastName" name="last_name">
+                                    </div>
+
+                                    <div class="single-grid">
+                                        <label for="email">Email</label>
+                                        <input class="full-block" type="email" id="email" name="email_address">
+                                    </div>
+
+                                    <div class="two-columns">
+                                        <div class="single-grid full-block">
+                                            <label for="role">Status</label>
+                                            <select class="full-block" id="role" name="user_role_name">
+                                            <option value="student">Student</option>
+                                            <option value="instructor">Instructor</option>
+                                            <option value="guest">Guest</option>
+                                            </select>
+                                        </div>
+
+                                        <div class="single-grid full-block">
+                                            <label for="date">Date</label>
+                                            <input class="full-block" type="date" id="date" name="date">
+                                        </div>
+                                    </div>
+
+                                    <div>
+                                        <p class="single-grid">Choose your favorite Web language:</p>
+                                        <div class="three-columns">
+                                            <div>
+                                                <input type="radio" id="html" name="fav_language" value="HTML">
+                                                <label for="html">HTML</label><br>
+                                            </div>
+
+                                            <div>
+                                                <input type="radio" id="css" name="fav_language" value="CSS">
+                                                <label for="css">CSS</label><br>
+                                            </div>
+                                            <div>
+                                                <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+                                                <label for="javascript">JavaScript</label>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="single-grid">
+                                        <label for="comments">Comments</label>
+                                        <textarea class="full-block" id="comments" name="comments"></textarea>
+                                    </div>
+
+                                    <div class="two-columns">
+                                        <div class="two-columns-uneven">
+                                            <input type="checkbox" id="signup" name="signup" value="Signup">
+                                            <label for="signup">Sign up for news letter</label><br>
+                                        </div>
+
+                                        <div class="two-columns-uneven">
+                                            <input type="checkbox" id="terms" name="terms" value="Terms">
+                                            <label for="terms"> Agree to terms and conditions</label>
+                                        </div>
+                                    </div>
+
+                                    <div class="single-grid">
+                                        <button type="submit">Submit</button>
+                                    </div>
+                                </div>
+                                <div></div>
+                            </div>
+
+                        </fieldset>
+                    </form>
+
+
+
+                </div>
+
+            </div>
+        </div>
+
+
+
+    </body>
+
+
+</html>

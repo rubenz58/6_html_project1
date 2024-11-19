@@ -1,0 +1,156 @@
+/* Code Here */
+p {
+    font-size: 2em;
+    padding: 1em;
+}
+
+body {
+    background-color: #1DB954;
+}
+
+a {
+    font-size: 3em;
+    color: beige;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 5em;
+}
+
+h2 {
+    padding: 20px;
+}
+
+.nav-bar {
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    place-items: center;
+    /* background-color: #15853cb5; */
+    /* background-color: #00ffea; */
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100px;
+    overflow: hidden;
+}
+
+.nav-bar div {
+    background-color: #191414;
+    text-align: center;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    width: 98%;
+    height: 95%;
+    border-radius: 20px;
+    filter: drop-shadow(20px 10px #0e582831);
+}
+
+.nav-bar div:hover {
+    background: #15833b;
+    color: black;
+}
+
+.nav-bar div a {
+    font-size: xx-large;
+    color: beige;
+    height: 100%;
+}
+.nav-bar div a:hover {
+    color: black;
+}
+
+.variable-content {
+    margin-left: 290px;
+    border-radius: 20px;
+    background-color: #191414;
+    color: beige;
+}
+
+.main {
+    margin-top: 100px;
+}
+
+.side-bar {
+    position: fixed;
+    top: 100px;
+    /* margin-top: 100px; */
+    /* top: 0; */
+    width: 280px;
+    border-radius: 20px;
+    background-color: #191414;
+    color: beige;
+    text-align: center;
+}
+
+
+.cropped-ofp {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* object-position: 25% 25%; */
+}
+
+
+.display-block {
+    border-style: solid;
+    border-color: red;
+
+    /* min-height: 100px; */
+    /* height: 100%; */
+    /* width: 100%; */
+    /* background-color: aqua; */
+}
+
+.lana-profile-image {
+    place-items: center;
+    width: 400px;
+    height: 400px;
+}
+
+.center-items {
+    place-items: center;
+}
+
+
+.two-columns {
+    display: grid;
+    /* grid-template-columns: 20% auto; */
+    /* place-items: center; */
+}
+
+#sticky_position {
+    position: sticky;
+    top: 100px;
+}
+
+/* Profile Page */
+
+.large-three-columns {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.single-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    place-items: center;
+}
+
+.full-block {
+    height: 100%;
+    width: 95%;
+}
+
+.two-columns-uneven {
+    display: grid;
+    grid-template-columns: 40px auto;
+    place-items: center;
+}
+
+.three-columns {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    place-items: center;
+}
